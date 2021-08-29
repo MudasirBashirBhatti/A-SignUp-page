@@ -95,8 +95,8 @@ input {
 } 
 
 .btn .firstrow .signin_button a:hover{
-color: white;
-background-color: rgb(56, 56, 250);
+color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
 transition: 0.3s;
 border: 1px solid var(--textColor);
 
@@ -115,8 +115,8 @@ border: 1px solid var(--textColor);
 } 
 
 .btn .firstrow .signup_button:hover{
-    color: white;
-background-color: rgb(56, 56, 250);
+    color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
 transition: 0.3s;
 border: 1px solid var(--textColor);
 }
@@ -135,8 +135,8 @@ border: 1px solid var(--textColor);
 } 
 
 .second_row button:hover{
-    color: white;
-    background-color: rgb(56, 56, 250);
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     transition: 0.3s;
     border: 1px solid var(--textColor);
     }
