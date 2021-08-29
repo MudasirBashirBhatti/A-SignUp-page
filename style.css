@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid green; */
+}
+
+:root{
+    --primaryColor:#129cff;
+    --textColor:white;
+    --button_hover_color:rgb(255, 255, 255);
+    --button_hover_background:rgb(247, 23, 255);
+
+}
+
+body{
+    background-image:url(1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container{
+    border:2px solid rgb(0, 0, 0);
+    width: 467px;
+    height: 500px;
+    background-color:var(--primaryColor);
+    position: absolute;
+    top: 23%;
+    left: 33%;
+
+}
+
+.head{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 38px;
+    padding-bottom: 45px;
+    color:var(--textColor);
+    text-decoration: underline solid 4px var(--textColor);
+}
+
+.input{
+    padding-left: 30px;
+    font-size: 30px;
+    padding-bottom: 40px;
+    color: white;
+
+}
+
+.star{
+    padding-left:7px;
+    color: red;
+    float: right;
+    margin-right:14px;
+}
+
+input{
+    width: 215px;
+    height: 26px;
+    outline: none;
+    margin-left: 5px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    position: relative;
+    bottom: 5px;
+    padding-left: 20px;
+}
+
+.email1{
+    margin-left:70px ;
+}
+.password1{
+    margin-left: 25px;
+}
+
+.btn{
+    display: inline;
+    position: absolute;
+    left: 25px;
+    border: 1px;
+
+}
+
+.Reset_button{
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color:var(--textColor);
+    cursor: pointer;
+}
+
+.Reset_button:hover{
+    padding: 5px 16px;
+    color: var(--button_hover_color);
+    background-color: var(--button_hover_background);
+    transition: 0.3s;
+
+}
+
+.Submit_button{
+    padding: 5px 15px;
+    margin-left: 15px;
+    border-radius: 10px;
+    background-color:var(--textColor);
+    cursor: pointer;
+}
+
+.Submit_button:hover{
+    padding: 5px 16px;
+    color: var(--button_hover_color);
+    background-color: var(--button_hover_background);
+    transition: 0.3s;
+    
+
+}
+
+.footer1{
+    color: var(--textColor);
+    position: relative;
+    top: 117px;
+    letter-spacing: 3px;
+    text-align: center;
+
+}
+
+::placeholder{
+    color:rgb(0, 0, 0);
+}
